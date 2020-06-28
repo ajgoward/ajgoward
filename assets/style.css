@@ -1,0 +1,18 @@
+.navbar {
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #E6F4F1;
+    transition: background-color 0.2s ease;
+    
+}
+
+.avatar {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: #00BEA7;
+}
