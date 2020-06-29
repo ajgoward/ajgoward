@@ -9,7 +9,7 @@
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/style.css">
 	<script src="https://kit.fontawesome.com/90ee600770.js" crossorigin="anonymous"></script>
-    <script src="timeline.js"></script>
+	<script src="timeline.js"></script>
 </head>
 
 <body>
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 			</li>
-			
+
 			<li>
 				<div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
 				<div class="timeline-panel">
@@ -137,13 +137,13 @@
 						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>The Hollybush Inn</small>
 						</p>
 					</div>
-                   <button onclick="hideShow3() " type="button" class="btn btn-info">Hide/Show Info</button>
+					<button onclick="hideShow3() " type="button" class="btn btn-info">Hide/Show Info</button>
 					<div class="timeline-body " id="hollybush">
 						<p> : At the Holly Bush I Cook fresh food; I work alone and manage a small team to provide a
 							high level of service for the customers. Also, I do all the ordering and stock rotation and
 							sorting rotas. I also sort monthly promotions and do menus to generate more profit for the
 							business.</p>
-                   
+
 					</div>
 				</div>
 			</li>
@@ -161,15 +161,48 @@
 			</li>
 		</ul>
 	</div>
+	<div class="row">
+		<div class="col-md-12" id="projects">
+			<h1>Projects</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-12 "><a href="https://ajgoward.github.io/Things-Near-Me/index.html"
+					target="_blank"><img src="assets/images/things1.png" alt="dog-map" class="things1"></a></div>
+		</div>
 <div class="row">
-			<div class="col-md-12" id="projects">
-				<h1>Projects</h1>
+			<div class="col-md-12 "><a href="https://thorin-and-company0000.herokuapp.com/"
+					target="_blank"><img src="assets/images/thorin.png" alt="thorin" class="things1"></a></div>
+		</div>
+        <div class="row">
+			<div class="col-md-12 ">
+					<img src="assets/images/whisky.png" alt="thorin" class="things1" href="https://ajgoward.github.io/bootstrap/"></div>
+                    </div>  
+<div class="row">
+			<div class="col-md-12" id="resume">
+				<h1>Resume</h1>
 			</div>
-<div class="row">
-<div class="col-md-12 "><img src="assets/images/things1.png" alt="dog-map" class="things1"></div></div>
+		</div>
+  <form id="myform" method="post">
+<label>from_name</label>
+<input type="text" name="from_name" />
+<label>from_email</label>
+<input type="text" name="from_email" />
+<label>project_request</label>
+<input type="text" name="project_request" />
+<br><br>
+<button>
+Send
+</button>
+</form>
 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-	</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_Bw0wFLIW8MS0xjexXyTL8");
+   })();
+</script>
 	<footer>
 		<div class="row">
 			<div class="col-sm-6 social-pages">
@@ -226,6 +259,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_Bw0wFLIW8MS0xjexXyTL8");
+   })();
+</script>
 </body>
 
 </html>

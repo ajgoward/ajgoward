@@ -26,16 +26,14 @@ box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 img {
-    max-width: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 30px;
 }
 
-.things1{
-    padding: 30px;
-}
 
-.things2{
-    padding: 30px 0px 30px 80px ;
-}
 body {
     background-color: #FCFCD4;
     margin: auto;
@@ -300,4 +298,33 @@ footer {
     display: none;
 }
 
-
+form {
+  width: 500px;
+  background: white;
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+form input,
+form textarea {
+  font: inherit;
+  padding: 5px 5px;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+form button {
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 8px 35px;
+  font-size: 12px;
+  background: #888;
+  color: white;
+}
+form label {
+  color: #777;
+  font-size: 11px;
+  margin-bottom: 2px;
+  display: block;
+}
