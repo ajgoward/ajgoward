@@ -20,8 +20,8 @@
   </button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link" href="#about">Resume</a>
-				<a class="nav-item nav-link" href="#resume">Projects</a>
+				<a class="nav-item nav-link" href="#resume">Resume</a>
+				<a class="nav-item nav-link" href="#projects">Projects</a>
 				<a class="nav-item nav-link" href="contact.html">Contact</a>
 			</div>
 		</div>
@@ -85,26 +85,15 @@
 						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Grades Achieved</small>
 						</p>
 					</div>
-					<div class="timeline-body">
+					<button onclick=" hideShow()" type="button" class="btn btn-info">Hide/Show Info</button>
+					<div class="timeline-body " id="school">
 						<p>English: C</p>
 						<p>Maths: C</p>
 						<p>Science: C</p>
 					</div>
 				</div>
 			</li>
-			<li class="timeline-inverted">
-				<div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-				<div class="timeline-panel">
-					<div class="timeline-heading">
-						<h4 class="timeline-title">September 2008 to June 2010 - Reaseheath college</h4>
-						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Grades Achieved</small>
-						</p>
-					</div>
-					<div class="timeline-body">
-						<p>NVQ level 2 in food manufacturering : Pass</p>
-					</div>
-				</div>
-			</li>
+			
 			<li>
 				<div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
 				<div class="timeline-panel">
@@ -113,7 +102,8 @@
 						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>The Riverside Inn</small>
 						</p>
 					</div>
-					<div class="timeline-body">
+					<button onclick=" hideShow1()" type="button" class="btn btn-info">Hide/Show Info</button>
+					<div class="timeline-body " id="riverside">
 						<p>I was employed as a kitchen porter this involved in maintaining
 							The kitchen and plating up sweets. Then as a position became free I became
 							A starter chef , Then as another
@@ -133,7 +123,8 @@
 						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Grades Achieved</small>
 						</p>
 					</div>
-					<div class="timeline-body">
+					<button onclick=" hideShow2()" type="button" class="btn btn-info">Hide/Show Info</button>
+					<div class="timeline-body " id="college">
 						<p>BTEC level 3 in Hospitality and catering management : DDM</p>
 					</div>
 				</div>
@@ -146,8 +137,8 @@
 						<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>The Hollybush Inn</small>
 						</p>
 					</div>
-                   <button onclick=" hideShow()" type="button" class="btn btn-info">Hide/Show Info</button>
-					<div class="timeline-body " id="myDIV">
+                   <button onclick="hideShow3() " type="button" class="btn btn-info">Hide/Show Info</button>
+					<div class="timeline-body " id="hollybush">
 						<p> : At the Holly Bush I Cook fresh food; I work alone and manage a small team to provide a
 							high level of service for the customers. Also, I do all the ordering and stock rotation and
 							sorting rotas. I also sort monthly promotions and do menus to generate more profit for the
@@ -170,6 +161,12 @@
 			</li>
 		</ul>
 	</div>
+<div class="row">
+			<div class="col-md-12" id="projects">
+				<h1>Projects</h1>
+			</div>
+<div class="row">
+<div class="col-md-12 "><img src="assets/images/things1.png" alt="dog-map" class="things1"></div></div>
 
 
 	</div>

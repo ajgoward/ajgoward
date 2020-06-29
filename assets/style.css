@@ -6,7 +6,7 @@ box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #E6F4F1;
     transition: background-color 0.2s ease;
     font-family: 'Josefin Slab', serif;
-    font-size: 30px;
+    font-size: 50px;
     color: #374955;
 }
 
@@ -22,8 +22,20 @@ box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #00BEA7;
     font-family: 'Josefin Slab', serif;
      color: #374955;
+     font-size: 60px;
 }
 
+img {
+    max-width: 500px;
+}
+
+.things1{
+    padding: 30px;
+}
+
+.things2{
+    padding: 30px 0px 30px 80px ;
+}
 body {
     background-color: #FCFCD4;
     margin: auto;
@@ -36,6 +48,7 @@ h1 {
     padding-bottom: 20px;
     font-family: 'Josefin Slab', serif;
      color: #374955;
+     font-size: 60px;
 }
 
 p {
@@ -104,13 +117,6 @@ footer {
         margin-left: -1.5px;
     }
 
-    #myDIV {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 20px;
-}
 
     .timeline > li {
         margin-bottom: 20px;
@@ -234,8 +240,12 @@ footer {
     margin-top: 0;
     color:  #374955;
      font-family: 'Josefin Slab', serif;
+     font-size: 40px;
 }
 
+.timeline-body {
+    font-size: 2px;
+}
 
 
 @media (max-width: 767px) {
@@ -272,6 +282,22 @@ footer {
             left: -14px;
             right: auto;
         }
+}
+
+#school {
+    display: none;
+}
+
+#riverside {
+    display: none;
+}
+
+#college {
+    display: none;
+}
+
+#hollybush {
+    display: none;
 }
 
 
