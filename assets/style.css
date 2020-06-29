@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Roboto:ital,wght@1,300&display=swap');
+
+
 .navbar {
 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #E6F4F1;
     transition: background-color 0.2s ease;
-    
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    color: #374955;
 }
 
 .avatar {
@@ -15,4 +20,68 @@ box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 .jumbotron{
     text-align: center;
     background-color: #00BEA7;
+    font-family: 'Josefin Slab', serif;
+     color: #374955;
 }
+
+body {
+    background-color: #FCFCD4;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Josefin Slab', serif;
+     color: #374955;
+}
+
+p {
+    font-family:  'Roboto', sans-serif;
+    font-size: 30px;
+   font-weight: 300px;
+   color: #003762;
+}
+
+footer {
+    background-color: #E6F4F1;
+    min-height: 120px;
+}
+
+#footer-details{
+    padding: 20px;
+}
+
+
+.list-inline.social-links {
+    padding-right: 30px;
+    list-style: none;
+    background-color: #E6F4F1;
+    font-size:30px;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+
+.social-links li a {
+    color: #00BEA7;
+}
+
+.download-cv p {
+     font-size: 20px;
+       color: #374955;
+   font-family: 'Josefin Slab', serif;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+
+
+.fa-download:before {
+    color: #00BEA7;
+    
+}
+
+
+
