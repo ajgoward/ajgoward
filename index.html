@@ -166,43 +166,25 @@
 			<h1>Projects</h1>
 		</div>
 		<div class="row">
-			<div class="col-md-12 "><a href="https://ajgoward.github.io/Things-Near-Me/index.html"
+			<div class="col-md-4 img-fluid"><a href="https://ajgoward.github.io/Things-Near-Me/index.html"
 					target="_blank"><img src="assets/images/things1.png" alt="dog-map" class="things1"></a></div>
-		</div>
-<div class="row">
-			<div class="col-md-12 "><a href="https://thorin-and-company0000.herokuapp.com/"
+	
+			<div class="col-md-4 img-fluid "><a href="https://thorin-and-company0000.herokuapp.com/"
 					target="_blank"><img src="assets/images/thorin.png" alt="thorin" class="things1"></a></div>
-		</div>
-        <div class="row">
-			<div class="col-md-12 ">
+       
+			<div class="col-md-4">
 					<img src="assets/images/whisky.png" alt="thorin" class="things1" href="https://ajgoward.github.io/bootstrap/"></div>
                     </div>  
-<div class="row">
-			<div class="col-md-12" id="resume">
-				<h1>Resume</h1>
-			</div>
-		</div>
-  <form id="myform" method="post">
-<label>from_name</label>
-<input type="text" name="from_name" />
-<label>from_email</label>
-<input type="text" name="from_email" />
-<label>project_request</label>
-<input type="text" name="project_request" />
-<br><br>
-<button>
-Send
-</button>
-</form>
-
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_Bw0wFLIW8MS0xjexXyTL8");
-   })();
-</script>
+        <form id="contact-form">
+        <input type="hidden" name="contact_number">
+        <label>Name</label>
+        <input type="text" name="user_name">
+        <label>Email</label>
+        <input type="email" name="user_email">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send">
+    </form>
 	<footer>
 		<div class="row">
 			<div class="col-sm-6 social-pages">
