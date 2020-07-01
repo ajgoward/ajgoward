@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Roboto:ital,wght@1,300&display=swap');
 
-
+/* styling for the top of the page   */
 .navbar {
 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #E6F4F1;
@@ -24,6 +24,8 @@ box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
      color: #374955;
      font-size: 60px;
 }
+
+/* General styling of images and text */
 
 img {
     display: block;
@@ -63,6 +65,8 @@ footer {
     width: -webkit-fill-available;
 }
 
+/* footer styling */
+
 #footer-details{
     padding: 20px;
 }
@@ -97,6 +101,8 @@ footer {
     color: #00BEA7;
     
 }
+
+/* timeline styling */
 
 .timeline {
     list-style: none;
@@ -300,22 +306,38 @@ footer {
     display: none;
 }
 
+/* conatct section styling */
+.form-heading{
+    font-family: 'Josefin Slab', serif;
+     color: #374955;
+     font-size: 60px;
+}
+
 form {
   width: 500px;
-  background: white;
+  background:  #374955;
   padding: 20px 25px;
   margin: auto;
   margin-top: 30px;
   box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+  margin-bottom: 40px;
 }
 form input,
 form textarea {
-  font: inherit;
+    font-family:  'Roboto', sans-serif;
+    font-size: 30px;
+   font-weight: 300px;
+   color: #003762;
   padding: 5px 5px;
   width: 100%;
   margin-top: 3px;
   margin-bottom: 15px;
   box-sizing: border-box;
+
+}
+
+.form-control {
+    background-color: #E6F4F1 ;
 }
 form button {
   border: 1px solid rgba(0,0,0,0.2);
@@ -330,3 +352,26 @@ form label {
   margin-bottom: 2px;
   display: block;
 }
+
+.contact-heading {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color:  #00BEA7;;
+    color: #fafafa;
+}
+
+
